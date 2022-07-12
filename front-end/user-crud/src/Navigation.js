@@ -4,17 +4,17 @@ import {Link } from 'react-router-dom'
 
 function Navigation() {
   return (
-    <Nav>
+    <Nav style={{backgroundColor:'lightblue'}}>
         <NavItem>
         <NavLink>
-            <Link to='/'>
+            <Link to='/' style={{color:'black', textDecoration:'none'}}>
             Home
             </Link>
             </NavLink>
         </NavItem>
         <NavItem>
         <NavLink>
-            <Link to='/addNewUser'>
+            <Link to='/addNewUser' style={{color:'black', textDecoration:'none'}}>
             Add User
             </Link>
         </NavLink>
